@@ -1,5 +1,13 @@
+/*
+:root
+최상단을 의미함
+*/
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* line-height는 텍스트의 줄 간격을 조정하는 역할
+  보통은 절대적인 값인 px 등으로 나타내지만, 상대적인 값으로 사용가능하다.
+  이 속성이 적용된 element의 font-size에 대한 배수를 곱한 것.
+  ex) font-size: 16px; -> line-height의 절댓값: 161.5px;*/
   line-height: 1.5;
   font-weight: 400;
 
