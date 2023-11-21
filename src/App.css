@@ -17,7 +17,19 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
+/* 
+  transition은 요소의 스타일 변화가 부드럽게 일어나도록 하는 속성 
+  [사용법]
+  transition: [transition-property] [transition-duration] [transition-timing-function] [transition-delay];
+  사용 가능한 transition-timing-function 값
+    
+linear: 일정한 속도로 변화합니다.
+ease: 천천히 시작하여 빨라졌다가 다시 천천히 끝납니다.
+ease-in: 천천히 시작하여 점점 빨라집니다.
+ease-out: 빠르게 시작하여 점점 느려집니다.
+ease-in-out: 천천히 시작하여 중간에 빨라졌다가 다시 천천히 끝납니다.
+cubic-bezier(n,n,n,n): 사용자가 정의한 속도 곡선을 생성합니다.
+*/
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
